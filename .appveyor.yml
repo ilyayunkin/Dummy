@@ -26,7 +26,7 @@ artifacts:
     type: zip
     
 deploy: 
-  release: dummy-v$(appveyor_build_version)
+  release: dummy-v$(tag)
   tag: $(APPVEYOR_REPO_TAG_NAME)
   description: 'Release description'
   provider: GitHub
