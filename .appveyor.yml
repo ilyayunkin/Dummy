@@ -33,6 +33,7 @@ deploy:
   auth_token: # your encrypted token from GitHub
     secure: 5c6ifu7R/0JzCAHg9PIxYsWvkc93jD6LZeAUmVoE8TxSMb8953FlsdJwNTzM30XN
   artifact: Dummy.zip 
+  force_update: true
   draft: false
   prerelease: false
   on:
