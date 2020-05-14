@@ -39,7 +39,7 @@ artifacts:
     type: zip
     
 deploy: 
-  release: dummy-v$(appveyor_build_version)
+  release: dummy-v$(tag)
   description: 'Release description'
   provider: GitHub
   auth_token: # your encrypted token from GitHub
