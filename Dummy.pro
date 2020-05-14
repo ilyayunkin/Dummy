@@ -7,3 +7,4 @@ SOURCES += \
         main.c
 
 DESTDIR= bin
+QMAKE_CFLAGS+=--static
