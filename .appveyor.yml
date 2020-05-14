@@ -48,5 +48,6 @@ deploy:
   draft: false
   prerelease: false
   tag: $(APPVEYOR_REPO_TAG_NAME) 
+  skip_tags: true
   on:
     branch: master # only this will work
