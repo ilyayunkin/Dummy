@@ -7,6 +7,8 @@ install:
   - set QT_TOOLS_DIR=C:\Qt\Tools\mingw730_32\ 
   - set PATH=%QTDIR%\bin;C:\Qt\Tools\mingw730_32\bin;%PATH%
   - qmake -v
+  - dir C:\Qt\
+  - dir C:\Qt\5.13
   - dir %QTDIR%
   - dir %QT_TOOLS_DIR%
   
