@@ -11,6 +11,7 @@ install:
   - dir C:\Qt\5.13
   - dir %QTDIR%
   - dir %QT_TOOLS_DIR%
+  - set
   
 build_script:
   - qmake Dummy.pro
